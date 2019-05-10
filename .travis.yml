@@ -5,6 +5,7 @@ git:
   depth: false
 
 install:
+  - pip3 install --upgrade pip
   - pip3 install mako pybind11
   - pip3 install -e .
 
