@@ -1,10 +1,15 @@
 language: generic
 os: osx
+osx_image:
+  - xcode9.4   # Python 3.6   running on macOS 10.13
+  - xcode10.2  # Python 3.7.2 running on macOS 10.14.3
 
 git:
   depth: false
 
 install:
+  - python3 --version
+  - python3 -m pip install --upgrade pip
   - pip3 install pybind11
   - pip3 install -e .
 
