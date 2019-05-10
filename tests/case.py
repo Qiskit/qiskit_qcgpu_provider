@@ -1,6 +1,7 @@
 """This file contains a test case wrapper using mostly methods from the main qiskit repo"""
 
 import unittest
+from unittest.util import safe_repr
 
 import math
 from numpy import random
