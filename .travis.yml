@@ -12,8 +12,8 @@ install:
   - sw_vers ; python3 --version ; pip3 --version
   - pip3 install pybind11  # do this one all by itself
   - pip3 install mako 
-  - pip3 install qcgpu>=0.1.0
-  - pip3 install --user qiskit>=0.7
+  # - pip3 install qcgpu>=0.1.0
+  - sudo pip3 install qiskit>=0.7
   - pip3 install -e .
 
 script:
